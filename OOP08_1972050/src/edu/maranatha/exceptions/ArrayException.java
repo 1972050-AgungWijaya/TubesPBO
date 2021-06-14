@@ -1,0 +1,7 @@
+package edu.maranatha.exceptions;
+
+public class ArrayException extends Exception{
+    public ArrayException(String message){
+        super(message);
+    }
+}
